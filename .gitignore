@@ -14,3 +14,15 @@ bower_components
 psd
 thumb
 sketch
+
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+h2
+logs
+
+.eclipse
+
+target
+*.iml
+.idea
