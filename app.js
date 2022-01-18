@@ -49,7 +49,7 @@ class ProductCardRenderedComponent extends React.Component {
                 BtnText="detaliau" //pirkti
                 BtnURL="https://wikipedia.org"
                 ImgAlt="Prekė skutimosi peiliukas 'Skusk'"
-                ImgURL="./img/daugkartiniai-skutimosi-skustuvai-peiliukai-nulisstore_1024x1024@2x.webp" />
+                ImgURL="./img/razor_1024x1024@2x.webp" />
         );
     }
 }
