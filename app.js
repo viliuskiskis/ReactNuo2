@@ -4,20 +4,12 @@ for (var i = 0; i < 10; i++) {
     console.log('Pasileido ' + i)
 } */
 
-React.createClass = createReactClass;
-var HelloComponent = React.createClass({
-    render: function () {
-        return React.createElement(
-            "div",
-            null,
-            "Hello ",
-            this.props.name
-        );
+class HelloComponent extends React.Component {
+    render() {
+        return <div>Hello {this.props.name}</div>;
     }
-});
-
-ReactDOM.render(React.createElement(
-    HelloComponent,
-    { name: "Jane" }),
+}
+ReactDOM.render(
+    <HelloComponent name="Jane" />,
     document.getElementById('root')
 );
